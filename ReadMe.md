@@ -79,7 +79,7 @@ Most guns are based off of existing ingame components (Steel, Forged Iron, Mecha
 ## For more information, or general help:
 - https://www.youtube.com/channel/UCsmHsTmsfrhFUnhSknv7Trw?view_as=subscriber
 - https://steamcommunity.com/id/Jayick/
-- Discord: https://discord.gg/7daystodie
+- Discord-very basic to get faster help if you encounter an issue.: https://discord.gg/vryRTQq
 
 ## A special thankyou!
 A special thankyou to the following people, without their help, advice, and guidance this work would not be possible. These people are the backbone to our community, lending their skills to us all so we can complete amazing pieces of art for everyone to enjoy! Very much respect and admiration for these creators!
