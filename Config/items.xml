@@ -260,7 +260,7 @@
 
 <item name="Desert Eagle">
 	<property name="Extends" value="Luger"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,revolver,barrelAttachments,shortRange,pistol,sideAttachments,magazine,selfLoading,perkGunslinger"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,revolver,barrelAttachments,shortRange,smallTopAttachments,pistol,sideAttachments,magazine,selfLoading,perkGunslinger"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Pistols.unity3d?DE50Prefab"/>
 	<property name="CustomIcon" value="de50"/>
