@@ -121,4 +121,4 @@ https://7daystodie.com/forums/showthread.php?80827-Darkness-Falls-They-mostly-co
 [youtube](https://www.youtube.com/channel/UC3yu4ucbt_3_KJAki5jncBg)
 
 
-All assets are paid/licensed for free use/royalty free. 
+All assets are paid/licensed for free use/royalty free. None of the assets/textures are my own work. Just heavily edited and modified to fit 7 Days to Die. Main source: Sketchfab, Turbosquid, various others.
