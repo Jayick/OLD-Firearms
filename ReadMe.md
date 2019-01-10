@@ -110,8 +110,15 @@ A special thankyou to the following people, without their help, advice, and guid
 [youtube](https://www.youtube.com/channel/UCNVr9JmOGFpD4RCu4vUZfog/featured?view_as=subscriber)
 
 [nexus](https://www.nexusmods.com/users/48679478)
+
 - Khaine 
 
+[Darkness Falls Overhaul](
+https://7daystodie.com/forums/showthread.php?80827-Darkness-Falls-They-mostly-come-out-at-night%2Fpage84)
+
+[twitter](https://twitter.com/KhainesKorner)
+
 [youtube](https://www.youtube.com/channel/UC3yu4ucbt_3_KJAki5jncBg)
+
 
 All assets are paid/licensed for free use/royalty free. 
