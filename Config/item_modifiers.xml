@@ -1,0 +1,201 @@
+<configs>
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Silencer Sounds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+	<!-- Hands -->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="Glock 40">
+			<property name="Sound_start" value="silencehigh"/>
+		</item_property_overrides>
+		<item_property_overrides name="1911">
+			<property name="Sound_start" value="silencelow"/>
+			<property name="BarrelScale" value=".3,.3,.3"/>
+		</item_property_overrides>
+		<item_property_overrides name="338 Snubnose">
+			<property name="Sound_start" value="silencedeep"/>
+		</item_property_overrides>
+		<item_property_overrides name="Klob">
+			<property name="Sound_start" value="silenceauto"/>
+		</item_property_overrides>
+		<item_property_overrides name="Uzi">
+			<property name="Sound_start" value="silenceauto"/>
+		</item_property_overrides>
+		<item_property_overrides name="Spaz12">
+			<property name="Sound_start" value="silencedeep"/>
+		</item_property_overrides>
+		<item_property_overrides name="SCAR">
+			<property name="Sound_start" value="silencehigh"/>
+		</item_property_overrides>
+		<item_property_overrides name="AR15">
+			<property name="Sound_start" value="silencelow"/>
+		</item_property_overrides>
+		<item_property_overrides name="M4A1">
+			<property name="Sound_start" value="silencelow"/>
+		</item_property_overrides>
+	</append>
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+						Reflex Sight adjustments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<!-- Pistols -->
+		<item_property_overrides name="1911">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="-0.5,-0.5,-0.5"/>
+			<property name="ScopeCameraOffset" value="0.00321,-0.047,0.14"/>
+		</item_property_overrides>
+		<item_property_overrides name="Desert Eagle">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="-0.5,-0.5,-0.5"/>
+			<property name="ScopeCameraOffset" value="0.00025,-0.041,0.15"/>
+		</item_property_overrides>
+		<!-- SMG -->
+		<item_property_overrides name="Uzi">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="-0.5,-0.5,-0.5"/>
+			<property name="ScopeCameraOffset" value="-0.009,-0.044,0.23"/>
+		</item_property_overrides>
+		<!-- Shotguns -->
+		<item_property_overrides name="Spaz12">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="0.7,0.7,0.7"/>
+			<property name="ScopeCameraOffset" value="0.0041,-0.0083,0.35"/>
+		</item_property_overrides>
+		<!-- Rifle -->
+		<item_property_overrides name="Assault Rifle">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="-0.5,-0.5,-0.5"/>
+			<property name="ScopeCameraOffset" value="-0.0017,0.025,0.42"/>
+		</item_property_overrides>
+		<item_property_overrides name="SCAR">
+			<property name="Meshfile" value="#@modfolder:Resources/Rifles.unity3d?SCARPrefabACOG"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="15,0,0"/>
+			<property name="ScopeScale" value="0.7,0.7,0.7"/>
+			<property name="ScopeCameraOffset" value="-0.0007,-0.0232,0.24"/>
+		</item_property_overrides>
+		<item_property_overrides name="M4A1">
+			<property name="Meshfile" value="#@modfolder:Resources/Rifles.unity3d?M4A1ScopePrefab"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="0.5,0.5,0.5"/>
+			<property name="ScopeCameraOffset" value="-0.0009,0.0012,0.22"/>
+		</item_property_overrides>
+		<!-- Large Weapons -->
+		<item_property_overrides name="M249 Saw">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeOffset" value="0,0,0"/>
+			<property name="ScopeScale" value="0.7,0.7,0.7"/>
+			<property name="ScopeCameraOffset" value="-0.009,-0.028,0.36"/>
+		</item_property_overrides>
+	</append>
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+						Laser Sight Adjustments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<!-- Pistols -->
+		<item_property_overrides name="1911">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="Glock 40">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="Desert Eagle">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<!-- SMG -->
+		<item_property_overrides name="Klob">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="Uzi">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<!-- Shotgun -->
+		<item_property_overrides name="Spaz12">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<!-- Rifle -->
+		<item_property_overrides name="Assault Rifle">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="AR15">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="SCAR">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="M4A1">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<!-- Large Weapons -->
+		<item_property_overrides name="M249 Saw">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		<item_property_overrides name="M240">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+	</append>
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+						Custom Mods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--><append xpath="/item_modifiers">
+
+			
+		<item_modifier name="ACOG" installable_tags="customTopAttachments" blocked_tags="bow" modifier_tags="scope" type="attachment">
+			<property name="Stacknumber" value="1"/>
+			<property name="CustomIcon" value="acog"/>
+			
+			<item_property_overrides name="*">
+				<property name="CrosshairOnAim" value="true"/>
+				<property name="Zoom_max_out" value="55"/>
+				<property name="Zoom_max_in" value="55"/>
+			</item_property_overrides>
+			
+			<item_property_overrides name="M4A1">
+				<property name="Meshfile" value="#@modfolder:Resources/Rifles.unity3d?M4A1ScopePrefab"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeOffset" value="0.1,0.9,0"/>
+				<property name="ScopeScale" value="1,1,1"/>
+				<property name="ScopeCameraOffset" value="-0.0009,0.021,0.24"/>
+			</item_property_overrides>
+			
+			<item_property_overrides name="M249 Saw">
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeOffset" value="-0.5,0,0"/>
+				<property name="ScopeScale" value="1,1,1"/>
+				<property name="ScopeCameraOffset" value="-0.0095,-0.012,0.35"/>
+			</item_property_overrides>
+			
+			<item_property_overrides name="Spaz12">
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeOffset" value="0.9,0,0"/>
+				<property name="ScopeScale" value="1,1,1"/>
+				<property name="ScopeCameraOffset" value="0,0.004,0.32"/>
+			</item_property_overrides>
+			
+			<item_property_overrides name="SCAR">
+				<property name="Meshfile" value="#@modfolder:Resources/Rifles.unity3d?SCARPrefabACOG"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeOffset" value="0,0,0"/>
+				<property name="ScopeScale" value="1,1,1"/>
+				<property name="ScopeCameraOffset" value="0,0,0.29"/>
+			</item_property_overrides>
+			
+			<effect_group tiered="false">
+				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOGPrefab" parent_transform="Attachments/Scope"/>
+			</effect_group>
+		</item_modifier>
+	</append>
+</configs>
