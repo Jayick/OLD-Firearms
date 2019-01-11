@@ -5,7 +5,7 @@ Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
 Suggested for minigun that you have decent framerates. Pixle textures on fire may cause FPS drops in lower end clients.
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
-##Known bug: 
+## Known bug: 
 - In multiplayer and live servers, ACOG view model will be overriden by the user who last equpit the scope. So if you have an ACOG out, and your friend takes his out, you will see through their viewpoint. If you unequpit, and reequipt, they will then see through yours. Working on a fix now.
 
 ## About this Modlet:
