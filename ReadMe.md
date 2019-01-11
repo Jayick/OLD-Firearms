@@ -6,7 +6,7 @@ Suggested for minigun that you have decent framerates. Pixle textures on fire ma
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
 ## Known bug: 
-- In multiplayer and live servers, ACOG view model will be overriden by the user who last equpit the scope. So if you have an ACOG out, and your friend takes theirs out, you will see through their viewpoint. If you unequpit, and reequipt, they will then see through yours. Working on a fix now.
+- In multiplayer and live servers, ACOG view model will be overriden by the user who last equpit the scope. So if you have an ACOG out, and your friend takes theirs out, you will see through their viewpoint. If you unequpit, and reequipt, they will then see through yours. Working on a fix now. Removed it from core files and placed it in it's own Modlet found here. https://github.com/Jayick/ACOG-Single-Player DO NOT USE ON LIVE SERVERS! 
 
 ## About this Modlet:
 Custom Weapons and Attachments (ACOG only at the moment)
