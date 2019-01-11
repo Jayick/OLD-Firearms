@@ -145,57 +145,5 @@
 			<property name="CrosshairOnAim" value="false"/>
 		</item_property_overrides>
 	</append>
-	<!--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-						Custom Mods
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
---><append xpath="/item_modifiers">
-
-			
-		<item_modifier name="ACOG" installable_tags="customTopAttachments" blocked_tags="bow" modifier_tags="scope" type="attachment">
-			<property name="Stacknumber" value="1"/>
-			<property name="CustomIcon" value="acog"/>
-			
-			<item_property_overrides name="*">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="Zoom_max_out" value="55"/>
-				<property name="Zoom_max_in" value="55"/>
-			</item_property_overrides>
-			
-			<item_property_overrides name="M4A1">
-				<property name="Meshfile" value="#@modfolder:Resources/Rifles.unity3d?M4A1ScopePrefab"/>
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeOffset" value="0.1,0.9,0"/>
-				<property name="ScopeScale" value="1,1,1"/>
-				<property name="ScopeCameraOffset" value="-0.0009,0.021,0.24"/>
-			</item_property_overrides>
-			
-			<item_property_overrides name="M249 Saw">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeOffset" value="-0.5,0,0"/>
-				<property name="ScopeScale" value="1,1,1"/>
-				<property name="ScopeCameraOffset" value="-0.0095,-0.012,0.35"/>
-			</item_property_overrides>
-			
-			<item_property_overrides name="Spaz12">
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeOffset" value="0.9,0,0"/>
-				<property name="ScopeScale" value="1,1,1"/>
-				<property name="ScopeCameraOffset" value="0,0.004,0.32"/>
-			</item_property_overrides>
-			
-			<item_property_overrides name="SCAR">
-				<property name="Meshfile" value="#@modfolder:Resources/Rifles.unity3d?SCARPrefabACOG"/>
-				<property name="CrosshairOnAim" value="false"/>
-				<property name="ScopeOffset" value="0,0,0"/>
-				<property name="ScopeScale" value="1,1,1"/>
-				<property name="ScopeCameraOffset" value="0,0,0.29"/>
-			</item_property_overrides>
-			
-			<effect_group tiered="false">
-				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOGPrefab" parent_transform="Attachments/Scope"/>
-			</effect_group>
-		</item_modifier>
-	</append>
+	
 </configs>
