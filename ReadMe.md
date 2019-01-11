@@ -2,16 +2,16 @@
 
 ## Requirements:
 Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
-Suggested for minigun that you have decent framerates. Pixle textures on fire may cause FPS drops in lower end clients.
+Suggested for minigun that you have decent framerates. Pixel textures on fire may cause FPS drops in lower end clients.
 Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
 
 ## Known bug: 
-- In multiplayer and live servers, ACOG view model will be overridden by the user who last equipt the scope. So if you have an ACOG out, and your friend takes theirs out, you will see through their viewpoint. If you unequip, and reequip, they will then see through yours. Working on a fix now. Removed it from core files and placed it in it's own Modlet found here. https://github.com/Jayick/ACOG-Single-Player DO NOT USE ON LIVE SERVERS! 
+- In multiplayer and live servers, ACOG view model will be overridden by the user who last equipt the scope. So if you have an ACOG out, and your friend takes theirs out, you will see through their viewpoint. If you unequipped, and reequip, they will then see through yours. Working on a fix now. Removed it from core files and placed it in it's own Modlet found here. https://github.com/Jayick/ACOG-Single-Player DO NOT USE ON LIVE SERVERS! 
 
 ## About this Modlet:
 Custom Weapons and Attachments (ACOG only at the moment)
 Fully craftable, gated by progression, added to open world loot table, fully repairable/modable, custom audio, custom fire rates, custom damage and modifiers, and best of all, custom sighting.
-This entire mod is writen in xpath, no edits needed to any core files. Sadly, no localization.txt yet, so no ingame info text menu. All other UI works/functions perfectly.
+This entire mod is written in xpath, no edits needed to any core files. Sadly, no localization.txt yet, so no in game info text menu. All other UI works/functions perfectly.
 Silencers are finely tuned for game balance. Using a silencer will now reduce the amount of zombies in the surround area that flock to your POI, and inside alerts. You can now strategically move through a building and pick zombies off one by one with percision aim!
 
 [Showcase of the Silencer Changes](https://youtu.be/aWac7jp1qVE)
@@ -60,11 +60,11 @@ All guns and ammo are tied together via progression. When you unlock the firearm
 
 ## CRAFTING COSTS:
 
-Most guns are based off of existing ingame components (Steel, Forged Iron, Mechanical Parts, Duct Tape, Glue, Wood, etc). The cost for these weapons is high, especially end-game weapons such as the Chaingun and Golden Gun.
+Most guns are based off of existing in game components (Steel, Forged Iron, Mechanical Parts, Duct Tape, Glue, Wood, etc). The cost for these weapons is high, especially end-game weapons such as the Chaingun and Golden Gun.
 
 
 ## How to install
-- Navagate to your 7 Days to Die Directory (default: C:/ProgramFiles86/Steam/Steamapps/Common/7DaystoDie)
+- Navigate to your 7 Days to Die Directory (default: C:/ProgramFiles86/Steam/Steamapps/Common/7DaystoDie)
 - Right click anywhere in your MAIN directory (not Data/Configs, not 7DaysToDie_Data), and create New Folder 
 - Name New Folder: Mods [Our directory should look similar to something like this](https://imgur.com/a/pm5sJKc)
 - Download entire mod pack via GitHub or other Trusted source (I only share via Discord, and GitHub. For my personal mods, do not trust any other source unless verified by me)
