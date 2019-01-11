@@ -110,14 +110,6 @@
 	</lootgroup>
 </insertBefore>
 
-<!-- Appends for ACOG Mod Schematic --> 
-<append xpath="lootcontainers/lootgroup[@name='commonBooks']">
-	<item name="ACOG Schematic"/>
-</append>
-
-<append xpath="lootcontainers/lootgroup[@name='rareBooks']">
-	<item name="ACOG Schematic"/>
-</append>
 
 <!-- Nightstand/Dresser -->
 <append xpath="/lootcontainers/lootcontainer[@id='6']">	
