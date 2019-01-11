@@ -1571,19 +1571,5 @@
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 	</effect_group>
 </item>
-
-<!--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-									Schematics and Components 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-
-<item name="ACOG Schematic">
-	<property name="Extends" value="schematicMaster"/>
-	<property name="DescriptionKey" value="schematicMaster2Desc"/>
-	<property name="CustomIcon" value="acogs"/>
-	<property name="EconomicValue" value="500"/>
-</item>
-
 </append>
 </configs>
