@@ -1,5 +1,8 @@
 # Firearms Modlet (A17 full release)
 
+Prepping modlet for update: adding more weapons, grenade launchers, and fine tuning other weapons.
+1/16/19: Prepping ReadMe for new modlet features. 
+
 ## Requirements:
 Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
 Suggested for minigun that you have decent framerates. Pixel textures on fire may cause FPS drops in lower end clients.
@@ -20,7 +23,7 @@ Silencers are finely tuned for game balance. Using a silencer will now reduce th
 
 Modlet also comes with a placeable Target block with a center mark. Craftable at a very low cost for easy target use with friends! [Preview of how the target works](https://www.youtube.com/watch?v=YNcjQHJT3hE)
 
-![Main Image](https://i.imgur.com/7s3wkCc.png)
+![Main Image](https://i.imgur.com/hf8d4VK.png)
 
 ## Crafting requirements and information:
 All guns and ammo are tied to progression system for crafting. This is located as a NEW perk under INTELLECT Attribute: Craftsmanship Perks. [Preview video](https://www.youtube.com/watch?v=Ca4bFOUGNZs)
