@@ -23,7 +23,7 @@ Silencers are finely tuned for game balance. Using a silencer will now reduce th
 
 Modlet also comes with a placeable Target block with a center mark. Craftable at a very low cost for easy target use with friends! [Preview of how the target works](https://www.youtube.com/watch?v=YNcjQHJT3hE)
 
-![Main Image](https://i.imgur.com/hf8d4VK.png)
+![Main Image](https://i.imgur.com/45WU166.png)
 
 ## Crafting requirements and information:
 All guns and ammo are tied to progression system for crafting. This is located as a NEW perk under INTELLECT Attribute: Craftsmanship Perks. [Preview video](https://www.youtube.com/watch?v=Ca4bFOUGNZs)
