@@ -1323,7 +1323,7 @@
 
 <!--                          SMG                        -->
 <item name="10mm Bullet">
-	<property name="DisplayType" value="Bullet"/>
+	<property name="DisplayType" value="ammoBullet"/>
 	<property name="CustomIcon" value="10mm"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -1429,7 +1429,7 @@
 
 <item name="20 Gauge Shell">
 	<property name="Tags" value=",shotgun"/>
-	<property name="DisplayType" value="Shotgun"/>
+	<property name="DisplayType" value="ammoShotgun"/>
 	<property name="HoldType" value="45"/>
 	<property name="CustomIcon" value="20g"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
