@@ -491,7 +491,7 @@
 		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="300"/>
-			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?chaingun"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?chaingunfire"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="0.5"/>
 			<NoiseScale value="1"/> 
