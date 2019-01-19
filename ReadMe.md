@@ -1,5 +1,5 @@
 # Firearms Modlet Expansion 1.2!
-This is an expansion modlet. This modlet is set to run on it's own. You DO NOT need the pervious version of Firearms to run this. Lots of bug fixes, changes, adjustments, and 10 new amazing weapons! From the Argh! pistol, to the M79 GL40 Grenade Launcher!
+This is an expansion modlet. This modlet is set to run on it's own. You DO NOT need the previous version of Firearms to run this. Lots of bug fixes, changes, adjustments, and 10 new amazing weapons! From the Argh! pistol, to the M79 GL40 Grenade Launcher!
 
 ## Suggested:
 Please remove any previous version of Firearms that you have before installing. Please launch a test map BEFORE you connect to your live game, to assure files are correctly pathed and no errors occur that will hinder your game. Additional weapons added may adjust previous weapons. You may of had a M4A1 Rifle before install, but now have a Mossberg Shotgun. I apologize, but due to XML changes and naming errors/pathing errors, core original XML files had to be changed, resulting in this "shift" of inventory.
@@ -9,7 +9,7 @@ Most important change to highlight: AMMO! Ammo can now be crafted into "Scrap Am
 - Added iconic sound to M1 Garand [as viewed here](https://www.youtube.com/watch?v=7OuGYUZjnMA)
 - Reduced recoil on M240 when aim'ed and crouched
 - Fixed iron sights on multiple weapons
-- Fixed Reflex Sight on multiple weapons, opened it up on FN FAL (perviously M14/Assault Rifle). AR15 remains unsighted. Can't remove gun assets Iron Sights as they are meshed to the gun itself. Will explore 3d modeling new rifle, or editing it out in the future.
+- Fixed Reflex Sight on multiple weapons, opened it up on FN FAL (previously M14/Assault Rifle). AR15 remains unsighted. Can't remove gun assets Iron Sights as they are meshed to the gun itself. Will explore 3d modeling new rifle, or editing it out in the future.
 - Fixed naming on 38 Snubnose and FN FAL (338 Snubnose/M14&Assault Rifle)
 - Changed audio properties on silencer weapons, giving new sounds to older weapons, adjusting sound volumes
 - Adjusted loot slightly in attempts to spawn higher grade gear
