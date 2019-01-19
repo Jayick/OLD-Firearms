@@ -1,4 +1,3 @@
-# Firearms Modlet (A17 full release)
 
 Prepping modlet for update: adding more weapons, grenade launchers, and fine tuning other weapons.
 1/16/19: Prepping ReadMe for new modlet features. 
