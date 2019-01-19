@@ -9,7 +9,7 @@ Most important change to highlight: AMMO! Ammo can now be crafted into "Scrap Am
 - Added iconic sound to M1 Garand [as viewed here](https://www.youtube.com/watch?v=7OuGYUZjnMA)
 - Reduced recoil on M240 when aim'ed and crouched
 - Fixed iron sights on multiple weapons
-- Fixed Reflex Sight on multiple weapons, opened it up on AR15, FN FAL (perviously M14/Assault Rifle)
+- Fixed Reflex Sight on multiple weapons, opened it up on FN FAL (perviously M14/Assault Rifle). AR15 remains unsighted. Can't remove gun assets Iron Sights as they are meshed to the gun itself. Will explore 3d modeling new rifle, or editing it out in the future.
 - Fixed naming on 38 Snubnose and FN FAL (338 Snubnose/M14&Assault Rifle)
 - Changed audio properties on silencer weapons, giving new sounds to older weapons, adjusting sound volumes
 - Adjusted loot slightly in attempts to spawn higher grade gear
