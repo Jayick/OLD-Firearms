@@ -1,17 +1,42 @@
+# Firearms Modlet Expansion 1.2!
+This is an expansion modlet. This modlet is set to run on it's own. You DO NOT need the pervious version of Firearms to run this. Lots of bug fixes, changes, adjustments, and 10 new amazing weapons! From the Argh! pistol, to the M79 GL40 Grenade Launcher!
 
-Prepping modlet for update: adding more weapons, grenade launchers, and fine tuning other weapons.
-1/16/19: Prepping ReadMe for new modlet features. 
+## Suggested:
+Please remove any previous version of Firearms that you have before installing. Please launch a test map BEFORE you connect to your live game, to assure files are correctly pathed and no errors occur that will hinder your game. Additional weapons added may adjust previous weapons. You may of had a M4A1 Rifle before install, but now have a Mossberg Shotgun. I apologize, but due to XML changes and naming errors/pathing errors, core original XML files had to be changed, resulting in this "shift" of inventory.
+
+## Changes:
+Most important change to highlight: AMMO! Ammo can now be crafted into "Scrap Ammo" at varying values at anytime while out in the open world. This recipe is unlocked by default, no cost required. Scrap Ammo, can now be turned into ONE of the users following at a workbench: 3 Gun Power, 1 Brass Casing, 1 Lead Tip, 1 Buckshot.
+- Added iconic sound to M1 Garand [as viewed here](https://www.youtube.com/watch?v=7OuGYUZjnMA)
+- Reduced recoil on M240 when aim'ed and crouched
+- Fixed iron sights on multiple weapons
+- Fixed Reflex Sight on multiple weapons, opened it up on AR15, FN FAL (perviously M14/Assault Rifle)
+- Fixed naming on 38 Snubnose and FN FAL (338 Snubnose/M14&Assault Rifle)
+- Changed audio properties on silencer weapons, giving new sounds to older weapons, adjusting sound volumes
+- Adjusted loot slightly in attempts to spawn higher grade gear
+- Adjusted textures on some weapons in attempts to brighten them
+- Adjusted Reflex/Barrel view models to slightly smaller on some weapons
+- Fixed audio loop with some weapons
+
+
+## Added 9 new weapons!
+ - Argh! Pistol
+ - MP5
+ - M1A1 Thompson (Aka Chicago Typewriter, Aka Tommy Gun)
+ - Mossberg 590A1 Shotgun
+ - Facepunch's Rust AK47
+ - M16
+ - Ak47
+ - SR25 Long range rifle
+ - M79 GL40 single tubed Grenade Launcher! [as viewed here](https://www.youtube.com/watch?v=Zb9CO_siVN8)
+ - Hand Cannon mini launcher!
 
 ## Requirements:
 Requires Alpha 17 version of 7 Days to Die. Will not work on A16.4 or lesser.
 Suggested for minigun that you have decent framerates. Pixel textures on fire may cause FPS drops in lower end clients.
-Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully.
-
-## Known bug: 
-- In multiplayer and live servers, ACOG view model will be overridden by the user who last equipt the scope. So if you have an ACOG out, and your friend takes theirs out, you will see through their viewpoint. If you unequipped, and reequip, they will then see through yours. Working on a fix now. Removed it from core files and placed it in it's own Modlet found here. https://github.com/Jayick/ACOG-Single-Player DO NOT USE ON LIVE SERVERS! 
+Some guns will skip your game upon loading in the hotbar. Their file size is quite large. Fix coming soon hopefully. Guns should not lag after first load.
 
 ## About this Modlet:
-Custom Weapons and Attachments (ACOG only at the moment)
+Custom Weapons and Attachments.
 Fully craftable, gated by progression, added to open world loot table, fully repairable/modable, custom audio, custom fire rates, custom damage and modifiers, and best of all, custom sighting.
 This entire mod is written in xpath, no edits needed to any core files. Sadly, no localization.txt yet, so no in game info text menu. All other UI works/functions perfectly.
 Silencers are finely tuned for game balance. Using a silencer will now reduce the amount of zombies in the surround area that flock to your POI, and inside alerts. You can now strategically move through a building and pick zombies off one by one with percision aim!
@@ -29,41 +54,10 @@ All guns and ammo are tied to progression system for crafting. This is located a
 All guns and ammo are tied together via progression. When you unlock the firearm, you unlock the ammunition as well.
 
 
-[Pistol video](https://www.youtube.com/watch?v=AlLnYDOpWfA)
-- ![Luger](https://i.imgur.com/ACpc1qZ.png)
-- ![338 Snubnose](https://i.imgur.com/lXqHQZb.png)
-- ![1911](https://i.imgur.com/CWfYmUP.png)
-- ![Glock 40](https://i.imgur.com/3oFOQmz.png)
-- ![Desert Eagle](https://i.imgur.com/twnQbvY.png)
-
-
-[SMG and Shotgun video](https://www.youtube.com/watch?v=LpDKkGG8qmY)
-- ![Uzi](https://i.imgur.com/JVdjMWt.png)
-- ![Klob](https://i.imgur.com/ak3swso.png)
-- ![MP40](https://i.imgur.com/ETJkmDe.png)
-- ![Double Barrel Shotgun](https://i.imgur.com/U8EC89v.png)
-- ![Spaz12](https://i.imgur.com/m1gWa7Q.png)
-
-[Rifles and ACOG scope video](https://www.youtube.com/watch?v=XfSJtoid9qw&t=1s)
-- ![Assault Rifle](https://i.imgur.com/OHpIXjV.png)
-- ![AR15](https://i.imgur.com/66tUYx7.png)
-- ![M4A1](https://i.imgur.com/YChzjDL.png)
-- ![SCAR](https://i.imgur.com/3EGMTbO.png)
-- ![M1](https://i.imgur.com/WHcPzpA.png)
-
-[Large Weapons video](https://www.youtube.com/watch?v=pXYxlZl0lSA)
-- ![M249 Saw](https://i.imgur.com/OpIjbV9.png)
-- ![M240](https://i.imgur.com/4D9NzDp.png)
-- ![M82](https://i.imgur.com/DdXRNUv.png)
-
-- ![Golden Gun](https://i.imgur.com/xhhAdYe.png)
-- ![Chaingun](https://i.imgur.com/YuoFiMW.png)
-
-
 ## CRAFTING COSTS:
-
 Most guns are based off of existing in game components (Steel, Forged Iron, Mechanical Parts, Duct Tape, Glue, Wood, etc). The cost for these weapons is high, especially end-game weapons such as the Chaingun and Golden Gun.
 
+Ammo can now be crafted into "Scrap Ammo" at varying values at anytime while out in the open world. This recipe is unlocked by default, no cost required. Scrap Ammo, can now be turned into ONE of the users following at a workbench: 3 Gun Power, 1 Brass Casing, 1 Lead Tip, 1 Buckshot.
 
 ## How to install
 - Navigate to your 7 Days to Die Directory (default: C:/ProgramFiles86/Steam/Steamapps/Common/7DaystoDie)
@@ -87,6 +81,8 @@ Most guns are based off of existing in game components (Steel, Forged Iron, Mech
 - Discord-very basic to get faster help if you encounter an issue.: https://discord.gg/jVCWFzw
 
 ## A special thankyou!
+A big thankyou to Yoshinoya for helping me test this mod, and providing me with some outstanding feedback to give you guys the best possible mod I can. Without his amazing help, I'd be swarmed with so much testing and checking, that I couldn't possibly update these projects in a timely fashion.
+
 A special thankyou to the following people, without their help, advice, and guidance this work would not be possible. These people are the backbone to our community, lending their skills to us all so we can complete amazing pieces of art for everyone to enjoy! Very much respect and admiration for these creators!
 - Ynd21
 
