@@ -1,0 +1,44 @@
+<configs>
+<append xpath="/blocks">
+<block name="Target">
+	<property name="Group" value="Building"/>
+	<property name="CustomIcon" value="target"/>
+	<property name="Material" value="Miron"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ImpactSound" value="ting"/>
+	<property name="Model" value="#@modfolder:Resources/Target.unity3d?TargetPrefab"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="Path" value="solid"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Stacknumber" value="200"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,2"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceWood" value="1"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
+</block>
+<block name="Small Target">
+	<property name="Group" value="Building"/>
+	<property name="CustomIcon" value="targetsmall"/>
+	<property name="Material" value="Miron"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="ImpactSound" value="ting"/>
+	<property name="Model" value="#@modfolder:Resources/Target.unity3d?TargetSmallPrefab"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<property name="Path" value="solid"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Stacknumber" value="200"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceWood" value="1"/> </property>
+	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="1" stick_chance="1"/>
+</block>
+</append>
+</configs>

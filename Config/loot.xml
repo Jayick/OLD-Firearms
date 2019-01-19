@@ -1,0 +1,470 @@
+<configs>
+<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Weapon Lootgroups with Ammo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<insertBefore xpath="/lootcontainers/lootgroup[@name='questChallenge']">
+
+<!-- Pistols -->
+	<lootgroup name="luger" count="all">
+		<item name="Luger" count="1"/>
+		<item name="9x19mm Bullet" count="8,24"/>
+	</lootgroup>
+	
+	<lootgroup name="r338sn" count="all">
+		<item name="38 Snubnose" count="1"/>
+		<item name="38 Bullet" count="8,24"/>
+	</lootgroup>
+	
+	<lootgroup name="a1911" count="all">
+		<item name="1911" count="1"/>
+		<item name="45ACP Bullet" count="4,16"/>
+	</lootgroup>
+	
+	<lootgroup name="Glock40" count="all">
+		<item name="Glock 40" count="1"/>
+		<item name="40cal Bullet" count="4,16"/>
+	</lootgroup>
+	
+	<lootgroup name="DesertEagle" count="all">
+		<item name="Desert Eagle" count="1"/>
+		<item name="50AE Bullet" count="1,7"/>
+	</lootgroup>
+
+<!-- SMG -->
+	<lootgroup name="Klob" count="all">
+		<item name="Klob" count="1"/>
+		<item name="10mm Bullet" count="12,26"/>
+	</lootgroup>
+	
+	<lootgroup name="Mac 10" count="all">
+		<item name="Mac 10" count="1"/>
+		<item name="10mm Bullet" count="12,26"/>
+	</lootgroup>
+	
+	<lootgroup name="MP5" count="all">
+		<item name="MP5" count="1"/>
+		<item name="40cal Bullet" count="12,26"/>
+	</lootgroup>
+	
+	<lootgroup name="Tommy" count="all">
+		<item name="M1A1 Thompson" count="1"/>
+		<item name="45ACP Bullet" count="12,26"/>
+	</lootgroup>
+	
+	<lootgroup name="MP40" count="all">
+		<item name="MP 40" count="1"/>
+		<item name="9x19mm Bullet" count="9,21"/>
+	</lootgroup>
+
+<!-- Shotguns -->
+	<lootgroup name="DBS" count="all">
+		<item name="Double Barrel Shotgun" count="1" />
+		<item name="ammoShotgunShell" count="1,5"/>
+	</lootgroup>
+	
+	<lootgroup name="Mossberg" count="all">
+		<item name="Mossberg 590A1" count="1"/>
+		<item name="20 Gauge Shell" count="4,12"/>
+	</lootgroup>
+	
+	<lootgroup name="Spaz12" count="all">
+		<item name="Spaz12" count="1"/>
+		<item name="20 Gauge Shell" count="4,16"/>
+	</lootgroup>
+
+<!-- Rifles -->
+	<lootgroup name="FN FAL" count="all">
+		<item name="FN FAL" count="1"/>
+		<item name="7.62x51mm Bullet" count="7,25"/>
+	</lootgroup>
+	
+	<lootgroup name="Rustak" count="all">
+		<item name="Rust AK" count="1"/>
+		<item name="5.56mm Bullet" count="7,25"/>
+	</lootgroup>
+	
+	<lootgroup name="M16" count="all">
+		<item name="M16" count="1"/>
+		<item name="5.56mm Bullet" count="7,25"/>
+	</lootgroup>
+	
+	<lootgroup name="AK47" count="all">
+		<item name="AK47" count="1"/>
+		<item name="7.62x39mm Bullet" count="7,25"/>
+	</lootgroup>
+	
+	<lootgroup name="AR15" count="all">
+		<item name="AR15" count="1"/>
+		<item name="223 Bullet" count="7,15"/>
+	</lootgroup>
+	
+	<lootgroup name="M4A1" count="all">
+		<item name="M4A1" count="1"/>
+		<item name="5.56x45mm Bullet" count="7,25"/>
+	</lootgroup>
+	
+	<lootgroup name="SCAR" count="all">
+		<item name="SCAR" count="1"/>
+		<item name="5.56x45mm Bullet" count="7,25"/>
+	</lootgroup>
+	
+	<lootgroup name="M1" count="all">
+		<item name="M1" count="1"/>
+		<item name="30-06 Bullet" count="4,16"/>
+	</lootgroup>
+
+<!--Large Weapons-->
+	<lootgroup name="M249Saw" count="all">
+		<item name="M249 Saw" count="1"/>
+		<item name="5.56x45mm Bullet" count="30,80"/>
+	</lootgroup>
+	
+	<lootgroup name="M240" count="all">
+		<item name="M240" count="1"/>
+		<item name="5.56x45mm Bullet" count="30,80"/>
+	</lootgroup>
+	
+	<lootgroup name="SR25" count="all">
+		<item name="SR25" count="1"/>
+		<item name="7.62x51mm Bullet" count="5,18"/>
+	</lootgroup>
+	
+	<lootgroup name="M82" count="all">
+		<item name="M82" count="1"/>
+		<item name="50cal Bullet" count="1,10"/>
+	</lootgroup>
+
+<!-- Specials -->
+	
+	<lootgroup name="M79" count="all">
+		<item name="M79 GL40" count="1"/>
+		<item name="40mm Explosive" count="1,3"/>
+	</lootgroup>
+	
+	<lootgroup name="Handcannon" count="all">
+		<item name="Hand Cannon" count="1"/>
+		<item name="Explosive Bullet" count="1,2"/>
+	</lootgroup>
+	
+	<lootgroup name="Argh" count="all">
+		<item name="Argh" count="1"/>
+		<item name="ammoBlunderbuss" count="1,10"/>
+	</lootgroup>
+	
+	<lootgroup name="Chaingun" count="all">
+		<item name="Chaingun" count="1"/>
+		<item name="5mm Bullet" count="50,200"/>
+	</lootgroup>
+</insertBefore>
+
+
+<!-- Nightstand/Dresser -->
+<append xpath="/lootcontainers/lootcontainer[@id='6']">	
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="DBS" count="1" prob="0.35"/>
+</append>
+
+<!-- Safes/weapon caches/rare good loot -->
+<append xpath="/lootcontainers/lootcontainer[@id='11']">
+	<item group="luger" count="1" prob="0.6"/>
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Glock40" count="1" prob="0.25"/>
+	<item group="DesertEagle" count="1" prob="0.005"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="Handcannon" count="1" prob="0.005"/>
+	<item group="SR25" count="1" prob="0.05"/>
+</append>
+
+<!-- Metal desk -->
+<append xpath="/lootcontainers/lootcontainer[@id='24']">
+	<item group="luger" count="1" prob="0.6"/>
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Glock40" count="1" prob="0.025"/>
+	<item group="DesertEagle" count="1" prob="0.005"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="DBS" count="1" prob="0.35"/>
+</append>
+
+<!-- Supply drop General -->
+<append xpath="/lootcontainers/lootcontainer[@id='34']">
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Glock40" count="1" prob="0.25"/>
+	<item group="DesertEagle" count="1" prob="0.03"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="MP40" count="1" prob="0.25"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="FN FAL" count="1" prob="0.4"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M4A1" count="1" prob="0.03"/>
+	<item group="SCAR" count="1" prob="0.03"/>
+	<item group="Handcannon" count="1" prob="0.005"/>
+	<item group="SR25" count="1" prob="0.005"/>
+</append>
+
+<!-- Suitcase -->
+<append xpath="/lootcontainers/lootcontainer[@id='36']">
+	<item group="Argh" count="1" prob="0.6"/>	
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="DBS" count="1" prob="0.35"/>
+</append>
+
+<!-- Gun Safe -->
+<append xpath="/lootcontainers/lootcontainer[@id='42']">
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="Handcannon" count="1" prob="0.005"/>
+	<item group="M16" count="1" prob="0.2"/>
+	<item group="M4A1" count="1" prob="0.05"/>
+	<item group="SCAR" count="1" prob="0.05"/>
+	<item group="M249Saw" count="1" prob="0.01"/>
+	<item group="SR25" count="1" prob="0.05"/>
+</append>
+
+<!-- Purse -->
+<append xpath="/lootcontainers/lootcontainer[@id='48']">
+	<item group="Argh" count="1" prob="0.6"/>	
+	<item group="luger" count="1" prob="0.9"/>
+	<item group="r338sn" count="1" prob="0.9"/>
+</append>
+
+<!-- Fancy chest -->
+<append xpath="/lootcontainers/lootcontainer[@id='41']">
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="MP40" count="1" prob="0.25"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="FN FAL" count="1" prob="0.4"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M4A1" count="1" prob="0.3"/>
+	<item group="SCAR" count="1" prob="0.3"/>
+	<item group="M1" count="1" prob="0.1"/>
+	<item group="M16" count="1" prob="0.3"/>
+	<item group="M79" count="1" prob="0.05"/>
+	<item group="SR25" count="1" prob="0.15"/>
+	<item group="Handcannon" count="1" prob="0.005"/>
+	<item group="M249Saw" count="1" prob="0.01"/>
+	<item group="M240" count="1" prob="0.01"/>
+	<item group="M82" count="1" prob="0.08"/>
+	<item group="Chaingun" count="1" prob="0.0005"/>
+</append>
+
+<!-- Shotgun Messiah -->
+<append xpath="/lootcontainers/lootcontainer[@id='50']">
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="MP40" count="1" prob="0.25"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="FN FAL" count="1" prob="0.4"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M4A1" count="1" prob="0.3"/>
+	<item group="SCAR" count="1" prob="0.3"/>
+	<item group="M1" count="1" prob="0.1"/>
+	<item group="M16" count="1" prob="0.3"/>
+	<item group="M79" count="1" prob="0.05"/>
+	<item group="SR25" count="1" prob="0.15"/>
+	<item group="Handcannon" count="1" prob="0.005"/>
+	<item group="M249Saw" count="1" prob="0.01"/>
+	<item group="M240" count="1" prob="0.01"/>
+	<item group="M82" count="1" prob="0.08"/>
+	<item group="Chaingun" count="1" prob="0.0005"/>
+</append>
+
+
+
+<!-- Treasure Chest -->
+<append xpath="/lootcontainers/lootcontainer[@id='61']">
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Glock40" count="1" prob="0.25"/>
+	<item group="DesertEagle" count="1" prob="0.3"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="MP40" count="1" prob="0.25"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="FN FAL" count="1" prob="0.35"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M4A1" count="1" prob="0.3"/>
+	<item group="SCAR" count="1" prob="0.3"/>
+	<item group="SR25" count="1" prob="0.15"/>
+	<item group="M1" count="1" prob="0.1"/>
+	<item group="M16" count="1" prob="0.3"/>
+	<item group="Handcannon" count="1" prob="0.05"/>
+</append>
+
+<!--  Zombie Loot 1 -->
+<append xpath="/lootcontainers/lootcontainer[@id='70']">
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="MP40" count="1" prob="0.25"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="FN FAL" count="1" prob="0.3"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M16" count="1" prob="0.35"/>
+	<item group="Handcannon" count="1" prob="0.05"/>
+	<item group="SR25" count="1" prob="0.05"/>
+</append>
+
+<!-- Zombie Loot 2 -->
+<append xpath="/lootcontainers/lootcontainer[@id='71']">
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="M16" count="1" prob="0.35"/>
+	<item group="M79" count="1" prob="0.05"/>
+	<item group="FN FAL" count="1" prob="0.3"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M4A1" count="1" prob="0.3"/>
+	<item group="SCAR" count="1" prob="0.3"/>
+	<item group="SR25" count="1" prob="0.15"/>
+	<item group="M1" count="1" prob="0.1"/>
+	<item group="M249Saw" count="1" prob="0.01"/>
+	<item group="M240" count="1" prob="0.01"/>
+	<item group="M82" count="1" prob="0.08"/>
+	<item group="Chaingun" count="1" prob="0.0005"/>
+</append>
+
+
+<!-- Weapons Bag Small -->
+<append xpath="/lootcontainers/lootcontainer[@id='100']">
+	<item group="luger" count="1" prob="0.6"/>	
+	<item group="r338sn" count="1" prob="0.6"/>
+	<item group="a1911" count="1" prob="0.6"/>
+	<item group="Klob" count="1" prob="0.35"/>
+	<item group="Mac 10" count="1" prob="0.35"/>
+	<item group="MP40" count="1" prob="0.25"/>
+	<item group="MP5" count="1" prob="0.2"/>
+	<item group="Tommy" count="1" prob="0.2"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="DBS" count="1" prob="0.35"/>
+	<item group="Spaz12" count="1" prob="0.3"/>
+	<item group="FN FAL" count="1" prob="0.4"/>
+	<item group="AR15" count="1" prob="0.35"/>
+	<item group="M16" count="1" prob="0.3"/>
+	<item group="SR25" count="1" prob="0.15"/>
+	<item group="Handcannon" count="1" prob="0.05"/>
+</append>
+
+
+<!-- Weapons Bag Large -->
+<append xpath="/lootcontainers/lootcontainer[@id='101']">
+	<item group="M4A1" count="1" prob="0.3"/>
+	<item group="SCAR" count="1" prob="0.3"/>
+	<item group="M1" count="1" prob="0.2"/>
+	<item group="SR25" count="1" prob="0.15"/>
+	<item group="M79" count="1" prob="0.05"/>
+	<item group="M249Saw" count="1" prob="0.01"/>
+	<item group="Mossberg" count="1" prob="0.3"/>
+	<item group="M240" count="1" prob="0.01"/>
+	<item group="M82" count="1" prob="0.08"/>
+	<item group="Chaingun" count="1" prob="0.0005"/>
+</append>
+
+
+<!-- Ammo Piles -->
+<append xpath="/lootcontainers/lootcontainer[@id='108']">
+		<item name="5.56mm Bullet" count="4,16" prob="0.25"/>
+		<item name="223 Bullet" count="7,15" prob="0.8"/>
+		<item name="7.62x39mm Bullet" count="7,25" prob="0.2"/>
+		
+		<item name="40cal Bullet" count="4,16" prob="0.25"/>
+		<item name="38 Bullet" count="8,24" prob="1.5"/>
+		
+		<item name="9x19mm Bullet" count="9,21" prob="1.5"/>
+		<item name="10mm Bullet" count="12,26" prob="1.5"/>
+		<item name="Explosive Bullet" count="1,10" prob="0.1"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='109']">
+		<item name="5.56x45mm Bullet" count="30,160" prob="0.25"/>
+		<item name="5.56mm Bullet" count="4,16" prob="0.25"/>
+		<item name="223 Bullet" count="7,15" prob="0.8"/>
+		<item name="7.62x39mm Bullet" count="7,25" prob="0.2"/>
+		<item name="7.62x51mm Bullet" count="7,25" prob="0.2"/>
+		
+		<item name="40cal Bullet" count="4,16" prob="0.25"/>
+		<item name="45ACP Bullet" count="4,16" prob="0.25"/>
+		<item name="38 Bullet" count="8,24" prob="1.5"/>
+		
+		<item name="20 Gauge Shell" count="4,16" prob="0.85"/>
+		<item name="9x19mm Bullet" count="9,21" prob="1.5"/>
+		<item name="10mm Bullet" count="12,26" prob="1.5"/>
+		<item name="40mm Explosive" count="1,3" prob="0.05"/>
+		<item name="Explosive Bullet" count="1,10" prob="0.1"/>
+</append>
+
+
+<append xpath="/lootcontainers/lootcontainer[@id='110']">
+		<item name="5.56x45mm Bullet" count="30,160" prob="0.25"/>
+		<item name="30-06 Bullet" count="4,16" prob="0.3"/>
+		<item name="5.56mm Bullet" count="4,16" prob="0.25"/>
+		<item name="223 Bullet" count="7,15" prob="0.8"/>
+		<item name="7.62x39mm Bullet" count="7,25" prob="0.2"/>
+		<item name="7.62x51mm Bullet" count="7,25" prob="0.2"/>
+		
+		<item name="50AE Bullet" count="1,7" prob="0.25"/>
+		<item name="40cal Bullet" count="4,16" prob="0.25"/>
+		<item name="45ACP Bullet" count="4,16" prob="0.25"/>
+		<item name="38 Bullet" count="8,24" prob="1.5"/>
+		
+		<item name="20 Gauge Shell" count="4,16" prob="0.85"/>
+		<item name="9x19mm Bullet" count="9,21" prob="1.5"/>
+		<item name="10mm Bullet" count="12,26" prob="1.5"/>
+		
+		<item name="5mm Bullet" count="50,600" prob="0.2"/>
+		<item name="Golden Bullet" count="1,3" prob="0.001"/>
+		<item name="50cal Bullet" count="1,10" prob="0.2"/>
+		<item name="40mm Explosive" count="1,3" prob="0.05"/>
+		<item name="Explosive Bullet" count="1,10" prob="0.1"/>
+</append>
+</configs>

@@ -1,0 +1,44 @@
+<configs>
+
+
+<append xpath="/progression/perks">
+	<perk name="perkAdvancedFirearms" parent="skillCraftsmanship" name_key="Modern Firearms" desc_key="Unlock realistic firearms and ammunition!" icon="ui_game_symbol_gunslinger" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="Requires Intellect 1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="Requires Intellect 5"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="Requires Intellect 8"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="Requires Intellect 10"/></level_requirements>
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="Luger,9x19mm Bullet,38 Snubnose,38 Bullet,Klob,10mm Bullet,Argh"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="Mac 10,Double Barrel Shot,FN FAL,223 Bullet,Glock 40,40cal Bullet,1911,45ACP Bullet,AR15,5.56mm Bullet,MP5,Hand Cannon,Explosive Bullet,Mossberg 590A1"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="M4A1,MP 40,SCAR,5.56x45mm Bullet,Spaz12,20 Gauge Shell,M1A1 Thompson,M16,SR25,7.65x51mm Bullet,AK47,7.62x39mm Bullet,Rust AK"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="3" level="4,5" tags="M249 Saw,M82,50cal Bullet,M1,30-06 Bullet,Desert Eagle,50AE Bullet,M79 GL40,40mm Explosive,M240"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="Golden Gun,Golden Bullet,5mm Bullet,Chaingun"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Unlocks: Luger, 38 Snubnose, Klob, Argh!"/>
+					<effect_description level="2" desc_key="AdvancedF2" desc_base="Unlocks: Glock 40, 1911, Mac 10, Double Barrel, FN FAL, AR15, MP5, Hand Cannon,Mossberg 590A1"/>
+					<effect_description level="3" desc_key="AdvancedF3" desc_base="Unlocks: M4A1, SCAR, MP 40, Spaz12, M1A1 Thompson, M16, SR25, Ak47, Rust AK"/>
+					<effect_description level="4" desc_key="AdvancedF4" desc_base="Unlocks: M249 Saw, M240, M82 Sniper, Desert Eagle, M1,M79 GL40"/>
+					<effect_description level="5" desc_key="AdvancedF5" desc_base="Unlocks: Golden Gun and Chaingun"/>
+				</effect_group>
+		</perk>
+	</append>
+</configs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
