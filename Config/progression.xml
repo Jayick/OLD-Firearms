@@ -11,8 +11,8 @@
 
 				<effect_group>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="Luger,9x19mm Bullet,38 Snubnose,38 Bullet,Klob,10mm Bullet,Argh"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="Mac 10,Double Barrel Shot,FN FAL,223 Bullet,Glock 40,40cal Bullet,1911,45ACP Bullet,AR15,5.56mm Bullet,MP5,Hand Cannon,Explosive Bullet,Mossberg 590A1"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="M4A1,MP 40,SCAR,5.56x45mm Bullet,Spaz12,20 Gauge Shell,M1A1 Thompson,M16,SR25,7.65x51mm Bullet,AK47,7.62x39mm Bullet,Rust AK"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="Mac 10,Double Barrel Shotgun,FN FAL,223 Bullet,Glock 40,40cal Bullet,1911,45ACP Bullet,AR15,5.56mm Bullet,MP5,Hand Cannon,Explosive Bullet,Mossberg 590A1"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="M4A1,MP 40,SCAR,5.56x45mm Bullet,Spaz12,20 Gauge Shell,M1A1 Thompson,M16,SR25,7.62x51mm Bullet,AK47,7.62x39mm Bullet,Rust AK"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="3" level="4,5" tags="M249 Saw,M82,50cal Bullet,M1,30-06 Bullet,Desert Eagle,50AE Bullet,M79 GL40,40mm Explosive,M240"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="5,5" tags="Golden Gun,Golden Bullet,5mm Bullet,Chaingun"/>
 				</effect_group>
