@@ -1013,7 +1013,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value="0.150"/>
-		<property name="Magazine_items" value="223 Bullet,5.56mm  Bullet"/>
+		<property name="Magazine_items" value="223 Bullet,5.56mm Bullet"/>
 		<property name="Sound_start" value="ar15fire"/>
 		<property name="Sound_empty" value="weapon_empty"/>
 		<property name="Sound_reload" value="ak47_reload"/>
