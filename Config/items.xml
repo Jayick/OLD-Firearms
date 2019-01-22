@@ -121,6 +121,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="6"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -182,7 +184,9 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="18"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.2"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.2"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".2"/>
@@ -243,6 +247,9 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="11"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".25"/>
@@ -304,7 +311,9 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="7"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
@@ -442,6 +451,9 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="1200"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="10000"/>
 		
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.9"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.9"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".5"/>
@@ -501,6 +513,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -562,6 +576,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".65"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.1"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.1"/>
@@ -622,6 +638,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -915,6 +933,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="20"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -979,6 +999,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1037,6 +1059,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1096,6 +1120,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1155,6 +1181,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1214,6 +1242,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1272,6 +1302,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1332,7 +1364,9 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".81"/>
-		
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
 		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value="0.048"/>
@@ -1398,6 +1432,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="200"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1457,6 +1493,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="100"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".2"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1517,6 +1555,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1579,6 +1619,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
@@ -1643,6 +1685,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -1849,6 +1893,8 @@
 
 		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 		
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
