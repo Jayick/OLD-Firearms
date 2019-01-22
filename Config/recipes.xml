@@ -13,6 +13,10 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 
+<recipe name="Argh!" count="1" tags="learnable">
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+</recipe>
 
 <recipe name="Luger" craft_area="workbench"  count="1" tags="learnable">
 	<ingredient name="resourceScrapIron" count="200"/>
