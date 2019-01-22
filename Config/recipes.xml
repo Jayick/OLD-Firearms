@@ -13,7 +13,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 
-<recipe name="Argh!" count="1" tags="learnable">
+<recipe name="Argh" count="1" tags="learnable">
 	<ingredient name="resourceScrapIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="2"/>
 </recipe>
