@@ -466,6 +466,8 @@
 		<display_value name="dRecoil" value="8" />
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.1"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="0.95"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="900,1700" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
 		<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".7"/>
