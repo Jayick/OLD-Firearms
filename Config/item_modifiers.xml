@@ -91,7 +91,7 @@
 		<item_property_overrides name="Mossberg 590A1">
 			<property name="Meshfile" value="#@modfolder:Resources/ShotExp1sight.unity3d?MossbergSightPrefab"/>
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="-0.0005,-0.298,0.025"/>
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0298,0.025"/>
 		</item_property_overrides>
 		<item_property_overrides name="Spaz12">
 			<property name="CrosshairOnAim" value="false"/>
