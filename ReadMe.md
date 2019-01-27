@@ -1,4 +1,4 @@
-# Firearms Modlet Expansion 1.2!
+# Firearms Modlet Expansion 1.2.5!
 This is an expansion modlet. This modlet is set to run on it's own. You DO NOT need the previous version of Firearms to run this. Lots of bug fixes, changes, adjustments, and 10 new amazing weapons! From the Argh! pistol, to the M79 GL40 Grenade Launcher!
 
 ## Suggested:
@@ -17,6 +17,8 @@ Most important change to highlight: AMMO! Ammo can now be crafted into "Scrap Am
 - Adjusted Reflex/Barrel view models to slightly smaller on some weapons
 - Fixed audio loop with some weapons
 
+ Update1/20/19: 5.56 Bullet craftable fixed, Uzi decay fix, Mod bonus fix, 7.62x51mm craftable fix. Argh Craftable fix.
+ Update:1/27/19: Mossberg Reflex Sight fixed
 
 ## Added 9 new weapons!
  - Argh! Pistol
