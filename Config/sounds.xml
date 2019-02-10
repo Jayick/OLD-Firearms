@@ -231,7 +231,7 @@
 	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
-		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?shotgunshell"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?shotgunempty"/>
 		<LocalCrouchVolumeScale value="0.5"/> 
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="1"/> 
