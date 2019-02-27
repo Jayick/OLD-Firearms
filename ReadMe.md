@@ -1,3 +1,7 @@
+# A 7 Days To Die Mod
+
+![GameLogo](https://gamepedia.cursecdn.com/7daystodie_gamepedia/thumb/1/1f/OfficalWiki.png/600px-OfficalWiki.png?version=53cf53a4d2849bbdabf215f58b3b43ef)
+
 # Firearms Modlet Expansion 1.2.5!
 This is an expansion modlet. This modlet is set to run on it's own. You DO NOT need the previous version of Firearms to run this. Lots of bug fixes, changes, adjustments, and 10 new amazing weapons! From the Argh! pistol, to the M79 GL40 Grenade Launcher!
 
